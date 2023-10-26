@@ -1,4 +1,4 @@
-package websocket.websocketproject;
+package websocket.websocketproject.enums;
 
 public enum MessageType {
 
