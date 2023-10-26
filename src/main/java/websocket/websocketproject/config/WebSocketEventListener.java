@@ -7,8 +7,8 @@ import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
-import websocket.websocketproject.ChatMessage;
-import websocket.websocketproject.MessageType;
+import websocket.websocketproject.model.ChatMessage;
+import websocket.websocketproject.enums.MessageType;
 
 @Slf4j
 @Component

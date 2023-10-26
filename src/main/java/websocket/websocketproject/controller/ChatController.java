@@ -5,7 +5,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
-import websocket.websocketproject.ChatMessage;
+import websocket.websocketproject.model.ChatMessage;
 
 @Controller
 public class ChatController {

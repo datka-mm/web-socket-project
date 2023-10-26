@@ -1,6 +1,7 @@
-package websocket.websocketproject;
+package websocket.websocketproject.model;
 
 import lombok.*;
+import websocket.websocketproject.enums.MessageType;
 
 @Getter
 @Setter
